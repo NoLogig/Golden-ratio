@@ -1,0 +1,34 @@
+// Add the material icons from the Google CDN.
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+// Add angular-material library font. Materialfont is "Roboto" ( $mat-font-family ).
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+// Loads theming variables and functions that enable to customize and interact with the material theme.
+@import '~@angular/material/theming';
+// Execute adds the default styling for the material components.
+@include mat-core();
+
+// Defines the default colors to use in theme.
+$primary: mat-palette($mat-purple, 700);
+$accent:  mat-palette($mat-deep-purple, 100, A200, A700);
+$warn:    mat-palette($mat-red, A400);
+
+// Applies variables to the theme with the defined colors.
+$theme: mat-dark-theme($primary, $accent, $warn);
+
+// Include the default theme styles, for the material components.
+@include angular-material-theme($theme);
+
+/** 
+ *  When generating a new project you can define which extension you want for style files:
+ *      ng new project-name --style=sass
+ *
+ *  Or set the default style on an existing project:
+ *      ng config schematics.@schematics/angular:component.styleext scss
+ *  
+ *  # note: @schematics/angular is the default schematic for the Angular CLI.
+ *          Style strings added to the @Component.styles must be CSS, because the CLI can't apply a pre-processor to inline styles.
+ */
+
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Roboto', sans-serif; }
