@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GoldenRatioComponent implements OnInit {
 
+  public scaleView: number;
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
