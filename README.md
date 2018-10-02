@@ -1,5 +1,7 @@
 # GoldenRatio
 
+![Golden Ratio Sample](https://github.com/NoLogig/Golden-ratio/blob/master/src/assets/Sample-GoldenRatio.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
