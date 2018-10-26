@@ -1,4 +1,5 @@
 # Golden Ratio Sequences
+[![Dependencies](https://img.shields.io/david/NoLogig/Golden-ratio.svg)](https://david-dm.org/NoLogig/Golden-ratio) [![License](https://img.shields.io/github/license/NoLogig/Golden-ratio.svg)](https://choosealicense.com/licenses/mit/) [![Donate](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/NoLogig)
 
 ## Sample Prev. Rectangle & Spiral 
 ![Golden Ratio Sample](https://github.com/NoLogig/Golden-ratio/blob/master/src/assets/Sample-GoldenRatio.png)
