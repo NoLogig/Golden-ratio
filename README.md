@@ -1,4 +1,4 @@
-# Golden Ratio Sequences
+# [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio) Sequence
 
 ## Sample Prev. Rectangle & Spiral 
 ![Golden Ratio Sample](https://github.com/NoLogig/Golden-ratio/blob/master/src/assets/Sample-GoldenRatio.png)
