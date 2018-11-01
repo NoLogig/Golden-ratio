@@ -1,7 +1,9 @@
-# Golden Ratio Sequences
+# [Golden Ratio](https://de.wikipedia.org/wiki/Goldener_Schnitt)
 [![Dependencies](https://img.shields.io/david/NoLogig/Golden-ratio.svg)](https://david-dm.org/NoLogig/Golden-ratio)
 [![License](https://img.shields.io/github/license/NoLogig/Golden-ratio.svg)](https://choosealicense.com/licenses/mit/)
 [![Donate](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/NoLogig)
+
+![Golden Ratio](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Golden_ratio_line_percentages.svg/220px-Golden_ratio_line_percentages.svg.png)
 
 ## Sample Prev. Rectangle & Spiral 
 ![Golden Ratio Sample](https://github.com/NoLogig/Golden-ratio/blob/master/src/assets/Sample-GoldenRatio.png)
