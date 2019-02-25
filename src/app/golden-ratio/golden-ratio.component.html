@@ -19,7 +19,9 @@
 
   <mat-card class="golden-card" [style.transform]="'scale(' + scaleView + ')'">
 
-    <!-- Instead nesting HTML-Tags we can use the *ngFor directive. 
+    <app-golden-rect [repeat]="7"></app-golden-rect>
+
+    <!-- recursive component instead nesting HTML-Tags. 
 
     <mat-card class="golden-card-major"> </mat-card>
     <mat-card class="golden-card-minor"> </mat-card>
@@ -38,7 +40,6 @@
         </mat-card>
       </mat-card> 
     </mat-card> -->
-    <app-golden-rect [repeats]="7"></app-golden-rect>
 
   </mat-card>
 

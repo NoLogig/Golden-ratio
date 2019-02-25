@@ -7,12 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GoldenRectComponent implements OnInit {
 
-  @Input() repeats: number;
+  @Input() repeat: number;
 
   constructor() { }
 
   ngOnInit() {
-    this.repeats -= 1;
+    this.repeat -= 1;
   }
 
 }
