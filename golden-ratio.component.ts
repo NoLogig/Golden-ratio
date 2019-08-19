@@ -6,10 +6,10 @@ interface IGoldenRatio {
   minor: number;
 }
 
-export const GOLDEN_RATIO =  1.61803398875;
+export const GOLDEN_RATIO = 1.61803398875;
 
 @Component({
-  selector: 'app-golden-ratio',
+  selector: 'nlg-golden-ratio',
   templateUrl: './golden-ratio.component.html',
   styleUrls: ['./golden-ratio.component.scss']
 })
@@ -27,18 +27,18 @@ export class GoldenRatioComponent implements OnInit {
 
   ngOnInit() { }
 
-    /** Golden Ratio Calculator
-     * @param main Main golden ratio segment value
-     * @return `IGoldenRatio`: {`main`: `number`; `major`: `number`; `minor`: `number`; }
-     */
-    goldenMain(main: number): IGoldenRatio | void {
+  /** Golden Ratio Calculator
+   * @param main Main golden ratio segment value
+   * @return `IGoldenRatio`: {`main`: `number`; `major`: `number`; `minor`: `number`; }
+   */
+  goldenMain(main: number): IGoldenRatio | void {
 
-      if (isNaN(main)) { return; }
+    if (isNaN(main)) { return; }
 
-      let major = main / GOLDEN_RATIO,
-          minor = main - major;
+    let major = main / GOLDEN_RATIO,
+      minor = main - major;
 
-      return { main, major, minor };
+    return { main, major, minor };
   }
 
   /** Golden Ratio Calculator
@@ -47,12 +47,12 @@ export class GoldenRatioComponent implements OnInit {
    */
   goldenMajor(major: number): IGoldenRatio | void {
 
-      if (isNaN(major)) { return; }
+    if (isNaN(major)) { return; }
 
-      let main = major * GOLDEN_RATIO,
-          minor = main - major;
+    let main = major * GOLDEN_RATIO,
+      minor = main - major;
 
-      return { main, major, minor };
+    return { main, major, minor };
   }
 
   /** Golden Ratio Calculator
@@ -61,12 +61,12 @@ export class GoldenRatioComponent implements OnInit {
    */
   goldenMinor(minor: number): IGoldenRatio | void {
 
-      if (isNaN(minor)) { return; }
+    if (isNaN(minor)) { return; }
 
-      let major = minor * GOLDEN_RATIO,
-          main = minor + major;
+    let major = minor * GOLDEN_RATIO,
+      main = minor + major;
 
-      return { main, major, minor };
+    return { main, major, minor };
   }
 
 }
